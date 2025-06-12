@@ -1,3 +1,5 @@
+// ! video 02
+
 "use strict"; //js org wanted to seprate the things using newer version of jsvsscript and also ensure people with old verson of javascript code also run fine
 //so we use use strict to ensure the program is written in new version of javscript
 // alert("nishank");
