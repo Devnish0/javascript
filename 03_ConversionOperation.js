@@ -87,3 +87,62 @@ console.log(typeof Stringnumber1); //string
 // * "anything" => true
 // ? conversion of number into string
 // * 23(number) => "23"(string)
+
+/////new thing
+
+console.log("1" + 2); // 12
+
+console.log(1 + "2"); // 12
+
+console.log("1" + 2 + 2); // 122
+
+console.log(1 + 2 + "2"); // 32
+
+console.log(true);
+
+console.log(+true); //2
+//! refer to the number 131
+console.log(+""); //0
+
+let GameCounter = 100;
+
+GameCounter++; //postfix
+// seems same but acts differently
+++GameCounter; //prefix
+
+console.log(GameCounter);
+
+//increment decrement prefix postfix ki kahani
+
+let x = 1; // value of x is 1
+
+let a = ++x; // ++x increment first then return // value of a = 2 x = 2
+
+let b = x++; // x++ first return then increment // value of b = 2 x = 3
+
+console.log(a, b, x); // 2,2
+
+//! notes
+//? in console,log(1+"1") in this the maths stopps as soon as it meets with the string for examples are below
+
+console.log("1" + 2 + 2); // 122  > the maths stopped at string and passed 122
+console.log(1 + 2 + "2"); // 32 > the maths didnt stopped and counted 1+2 and then stopped
+
+//? unary + operator this operator converts its operand into a number
+
++true + // 1
+  false + // 0
+  null + // 0
+  undefined + // NaN
+  "123" + // 123
+  "abc"; // NaN
+
+//? its equivalent to
+
+Number(true);
+Number("abc");
+
+//?or
+
+console.log(+true); // is equal to
+/*    =     */ console.log(Number(true));

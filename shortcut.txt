@@ -1,0 +1,52 @@
+- Moving around:
+    - h, j, k, l (left, down, up, right)
+    - w (next word), b (previous word)
+    - ^ (beginning of line), $ (end of line)
+    - gg (top of file), G (bottom of file)
+- Scrolling:
+    - Ctrl + f (forward), Ctrl + b (backward)
+
+Editing
+
+- Inserting text:
+    - i (insert before cursor), a (insert after cursor)
+    - I (insert at beginning of line), A (insert at end of line)
+- Deleting text:
+    - x (delete character), dd (delete line)
+    - dw (delete word), d$ (delete to end of line)
+- Copying and pasting:
+    - yy (yank line), y$ (yank to end of line)
+    - p (paste after cursor), P (paste before cursor)
+
+Searching
+
+- /pattern (search forward), ?pattern (search backward)
+- n (next match), N (previous match)
+
+Undo and Redo
+
+- u (undo), Ctrl + r (redo)
+
+Saving and Quitting
+
+- :w (write/save file), :wq (write and quit)
+- :q! (quit without saving)
+
+Other useful commands
+
+- :set number (display line numbers)
+- :set nonumber (hide line numbers)
+- :syntax on (enable syntax highlighting)
+
+Modes
+
+- Normal mode (default): navigate and edit
+- Insert mode: type i or a to enter
+- Visual mode: type v to enter (select text)
+
+Tips
+
+- Use Esc to return to Normal mode
+- Use :help for more information on Vim commands
+
+Start with the basics, and practice makes perfect! Do you have any specific questions or tasks you'd like to accomplish in Vim?

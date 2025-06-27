@@ -9,10 +9,9 @@ accountcity = "bareilly";
 // never ever use var as a variable as it has some problem with the block scope and functional scope
 
 accountname = "gangwar";
-
-/*console.log(accountEmail);
+/*console.log(accountEmail); nishank 
 console.log(accountId);
 console.log(accountcity);
 console.log(accountname);*/
 //can also use console table for mass prints at once for example *** use {{ brackets in table console}}
-console.table({ accountEmail, accountId, accountcity, accountname });
+console.log("nidhank")
