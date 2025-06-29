@@ -1,7 +1,7 @@
 // there are two types of datatypes (on the basis of how the data gets stored in the memory and how we can access them)
 //! primitive (7 types) >>>
 //? String, Number, Boolean, null, undefined, Symbol, BigInt
-/* String = ""(empty string) */ const name1 = "nishank";
+/* String = ""(empty string) */ const name1 = "kachua";
 /* Number = 1,2,3             */ const score = 6969;
 /* Boolean = true , False;     */ let IsUserLoggedIn = false;
 /* Null =not 0,"" but>>> empty */ let TempOutSide = null;
@@ -88,6 +88,6 @@ console.log(User.email);
 
 console.log(User2.email);
 
-let arr = new Array("nishank", "gangwar");
+let arr = new Array("kachua", "gangwar");
 
 console.log(arr[1]);
