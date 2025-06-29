@@ -53,7 +53,7 @@ console.log(typeof no_converted); //boolean
 
 //conversion of string into boolean
 let user = "";
-let user2 = "nishank";
+let user2 = "kachua";
 let BooleanUser = Boolean(user);
 let BooleanUser2 = Boolean(user2);
 console.log(BooleanUser); //false
