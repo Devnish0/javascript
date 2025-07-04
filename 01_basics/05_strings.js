@@ -58,6 +58,15 @@ console.log(test1.match(/is/g)); // [ 'is' ] (returns an array of all occurrence
 
 // ===================== Modifying Methods =====================
 console.log(test1.replace(/is/g, `was`)); // Devnwash was great (replaces all 'is' with 'was')
+//In JavaScript regular expressions, the letters after the closing slash (like g in /2/g) are called flags. They modify how the regular expression works. Here are the most common flags:
+
+//g — global: match all occurrences, not just the first.
+//i — ignore case: match case-insensitively (e.g., /a/i matches "A" and "a").
+//m — multiline: ^ and $ match the start/end of each line, not just the whole string.
+//s — dotAll: . matches newline characters as well.
+//u — unicode: treat pattern as a sequence of Unicode code points.
+//y — sticky: matches only from the last index position (lastIndex).
+// You can combine flags, for example: /2/gi (global and case-insensitive).
 console.log(test1.slice(0, 6)); // Devnis (returns substring from index 0 to 6)
 console.log(test1.substring(0, 6)); //! Devnis (returns substring from index 0 to 6) can be negative
 console.log(test1.substr(0, 6)); // Devnis (returns substring from index 0 to 6)
